@@ -1,0 +1,55 @@
+CREATE TABLE [User](
+username varchar(50) NOT NULL,
+userPassword varchar(50) NOT NULL,
+firstName varchar(50) NOT NULL,
+lastName varchar(50) NOT NULL,
+phone varchar(50) NOT NULL, 
+PRIMARY KEY (username));
+
+CREATE TABLE [TextBook](
+log# int NOT NULL IDENTITY PRIMARY KEY ,
+isbn varchar(50) NOT NULL,
+title varchar(50) NOT NULL,
+author varchar(50) NOT NULL);
+
+Create Table [Post]( 
+post# int NOT NULL IDENTITY PRIMARY KEY ,
+posterUsername varchar(50) NOT NULL,
+textBookLog# int NOT NULL, 
+FOREIGN KEY (posterUsername) REFERENCES [User](username),
+FOREIGN KEY (textBookLog#) REFERENCES [TradeUpDB].[dbo].[TextBook](log#)
+ON DELETE CASCADE); 
+
+Create Table [TradeRequest]( 
+req# int NOT NULL IDENTITY PRIMARY KEY ,
+post# int NOT NULL,
+senderUsername varchar(50) NOT NULL,
+senderPhone varchar(50) NOT NULL,
+textBookOne varchar(50) NOT NULL, 
+textBookTwo varchar(50), 
+textBookThree varchar(50), 
+tradeReviewed varchar(50)
+FOREIGN KEY (post#) REFERENCES [Post](post#)
+ON DELETE CASCADE); 
+
+Create Table [Finalized]( 
+post# int PRIMARY KEY,
+posterUsername varchar(50) NOT NULL,
+bookOfInterest varchar(50) NOT NULL,
+senderUserName varchar(50) NOT NULL,
+senderPhone varchar(50) NOT NULL,
+bookOne varchar(50) NOT NULL,
+bookTwo varchar(50),
+bookThree varchar(50)
+); 
+
+
+
+
+
+
+
+
+
+s
+

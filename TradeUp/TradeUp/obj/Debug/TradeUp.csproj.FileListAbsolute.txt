@@ -1,0 +1,17 @@
+C:\Users\marco\source\repos\TradeUp\TradeUp\bin\Debug\TradeUp.exe.config
+C:\Users\marco\source\repos\TradeUp\TradeUp\bin\Debug\TradeUp.exe
+C:\Users\marco\source\repos\TradeUp\TradeUp\bin\Debug\TradeUp.pdb
+C:\Users\marco\source\repos\TradeUp\TradeUp\obj\Debug\TradeUp.csprojResolveAssemblyReference.cache
+C:\Users\marco\source\repos\TradeUp\TradeUp\obj\Debug\TradeUp.mainFeed.resources
+C:\Users\marco\source\repos\TradeUp\TradeUp\obj\Debug\TradeUp.profile.resources
+C:\Users\marco\source\repos\TradeUp\TradeUp\obj\Debug\TradeUp.Properties.Resources.resources
+C:\Users\marco\source\repos\TradeUp\TradeUp\obj\Debug\TradeUp.csproj.GenerateResource.Cache
+C:\Users\marco\source\repos\TradeUp\TradeUp\obj\Debug\TradeUp.csproj.CoreCompileInputs.cache
+C:\Users\marco\source\repos\TradeUp\TradeUp\obj\Debug\TradeUp.exe
+C:\Users\marco\source\repos\TradeUp\TradeUp\obj\Debug\TradeUp.pdb
+C:\Users\marco\source\repos\TradeUp\TradeUp\obj\Debug\TradeUp.LogOn.resources
+C:\Users\marco\source\repos\TradeUp\TradeUp\obj\Debug\TradeUp.SignUp.resources
+C:\Users\marco\source\repos\TradeUp\TradeUp\obj\Debug\TradeUp.Trade.resources
+C:\Users\marco\source\repos\TradeUp\TradeUp\obj\Debug\TradeUp.AddTextBook.resources
+C:\Users\marco\source\repos\TradeUp\TradeUp\obj\Debug\TradeUp.BookDetails.resources
+C:\Users\marco\source\repos\TradeUp\TradeUp\obj\Debug\TradeUp.TradeDetails.resources
